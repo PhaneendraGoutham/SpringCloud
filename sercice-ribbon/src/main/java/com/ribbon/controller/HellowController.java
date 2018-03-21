@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * Created by x on 2018/3/20.
  */
-@Controller("/hellowController")
+@Controller
+@RequestMapping("/hellowController")
 public class HellowController {
 
     @Autowired
