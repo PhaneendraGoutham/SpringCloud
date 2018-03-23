@@ -1,16 +1,21 @@
-server:
-  port: 8761
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-#是否去检索服务
-    fetch-registry: false
-#表示本应用是否是向注册中心注册自己（配置高可用的时候需要设置为true,也就是默认值）
-    register-with-eureka: false
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-#eureka服务地址
-  server:
-    enable-self-preservation: false
+#server:
+#  port: 8761
+#
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+##是否去检索服务
+#    fetch-registry: false
+##表示本应用是否是向注册中心注册自己（配置高可用的时候需要设置为true,也就是默认值）
+#    register-with-eureka: false
+#    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+##eureka服务地址
+#  server:
+#    enable-self-preservation: falsespring:
+  spring:
+    profiles:
+      active: peer2
+    application:
+      name: eureka
