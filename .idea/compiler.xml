@@ -11,6 +11,9 @@
         <module name="config-server" />
         <module name="sercice-ribbon" />
         <module name="server" />
+        <module name="server-zipkin" />
+        <module name="service-zkone" />
+        <module name="service-zktwo" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
@@ -20,6 +23,12 @@
       <module name="config-server" target="1.8" />
       <module name="sercice-ribbon" target="1.8" />
       <module name="server" target="1.8" />
+      <module name="server-zipkin" target="1.8" />
+      <module name="server-zipkin-one" target="1.8" />
+      <module name="server-zk" target="1.8" />
+      <module name="service-zk" target="1.8" />
+      <module name="service-zkone" target="1.8" />
+      <module name="service-zktwo" target="1.8" />
       <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

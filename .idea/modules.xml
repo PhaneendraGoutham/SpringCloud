@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sercice-ribbon/sercice-ribbon.iml" filepath="$PROJECT_DIR$/sercice-ribbon/sercice-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zipkin/server-zipkin.iml" filepath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zkone/service-zkone.iml" filepath="$PROJECT_DIR$/service-zkone/service-zkone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zktwo/service-zktwo.iml" filepath="$PROJECT_DIR$/service-zktwo/service-zktwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
     </modules>
   </component>
